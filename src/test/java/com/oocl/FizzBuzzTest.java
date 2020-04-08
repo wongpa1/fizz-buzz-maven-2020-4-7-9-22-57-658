@@ -9,7 +9,6 @@ public class FizzBuzzTest {
         FizzBuzz fizzBuzz = new FizzBuzz();
 
         Assert.assertEquals("1", fizzBuzz.play(1));
-
     }
 
     @Test
@@ -17,7 +16,6 @@ public class FizzBuzzTest {
         FizzBuzz fizzBuzz = new FizzBuzz();
 
         Assert.assertEquals("Fizz", fizzBuzz.play(3));
-
     }
 
     @Test
@@ -25,14 +23,11 @@ public class FizzBuzzTest {
         FizzBuzz fizzBuzz = new FizzBuzz();
 
         Assert.assertEquals("Buzz", fizzBuzz.play(5));
-
     }
-
     @Test
     public void should_return_fizz_by_input_integer_divisible_by_3_and_5() {
         FizzBuzz fizzBuzz = new FizzBuzz();
 
         Assert.assertEquals("FizzBuzz", fizzBuzz.play(15));
-
     }
 }
