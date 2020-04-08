@@ -2,15 +2,16 @@ package com.oocl;
 
 public class FizzBuzz {
     public String play(int integer) {
+        String result = "";
 
         if (integer % 3 == 0) {
-            return "fizz";
+            result += "fizz";
         }
 
         if (integer % 5 == 0) {
-            return "buzz";
+            result += "buzz";
         }
 
-        return String.valueOf(integer);
+        return result.isEmpty() ? String.valueOf(integer) : result;
     }
 }
