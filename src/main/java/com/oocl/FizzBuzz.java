@@ -5,11 +5,11 @@ public class FizzBuzz {
         String result = "";
 
         if (integer % 3 == 0) {
-            result += "fizz";
+            result += "Fizz";
         }
 
         if (integer % 5 == 0) {
-            result += "buzz";
+            result += "Buzz";
         }
 
         return result.isEmpty() ? String.valueOf(integer) : result;
