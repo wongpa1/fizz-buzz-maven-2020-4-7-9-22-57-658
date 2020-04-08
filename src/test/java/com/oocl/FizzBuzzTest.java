@@ -11,11 +11,20 @@ public class FizzBuzzTest {
         Assert.assertEquals("1", fizzBuzz.play(1));
 
     }
+
     @Test
     public void should_return_fizz_by_input_integer_divisible_by_3() {
         FizzBuzz fizzBuzz = new FizzBuzz();
 
         Assert.assertEquals("fizz", fizzBuzz.play(3));
+
+    }
+
+    @Test
+    public void should_return_fizz_by_input_integer_divisible_by_5() {
+        FizzBuzz fizzBuzz = new FizzBuzz();
+
+        Assert.assertEquals("buzz", fizzBuzz.play(5));
 
     }
 }
